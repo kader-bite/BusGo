@@ -1,0 +1,189 @@
+{
+  "routes": [
+    {
+      "from": "Tunis",
+      "to": "Sfax",
+      "providers": [
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "06:00", "arrival": "09:30", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "09:00", "arrival": "12:30", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "13:00", "arrival": "16:45", "duration": "3h 45m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "17:00", "arrival": "20:30", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } }
+          ]
+        },
+        {
+          "id": "soretras",
+          "name": "SORETRAS",
+          "logo": "🚍",
+          "color": "#2a9d8f",
+          "schedules": [
+            { "departure": "07:30", "arrival": "11:15", "duration": "3h 45m", "price": { "adult": 19.8, "kid": 9.9, "disabled": 9.9 } },
+            { "departure": "11:00", "arrival": "14:45", "duration": "3h 45m", "price": { "adult": 19.8, "kid": 9.9, "disabled": 9.9 } },
+            { "departure": "15:30", "arrival": "19:15", "duration": "3h 45m", "price": { "adult": 19.8, "kid": 9.9, "disabled": 9.9 } }
+          ]
+        },
+        {
+          "id": "transtu",
+          "name": "TRANSTU Express",
+          "logo": "🚎",
+          "color": "#f4a261",
+          "schedules": [
+            { "departure": "08:00", "arrival": "11:00", "duration": "3h 00m", "price": { "adult": 28.0, "kid": 14.0, "disabled": 14.0 } },
+            { "departure": "14:00", "arrival": "17:00", "duration": "3h 00m", "price": { "adult": 28.0, "kid": 14.0, "disabled": 14.0 } },
+            { "departure": "18:30", "arrival": "21:30", "duration": "3h 00m", "price": { "adult": 28.0, "kid": 14.0, "disabled": 14.0 } }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Tunis",
+      "to": "Sousse",
+      "providers": [
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "07:00", "arrival": "09:00", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "10:30", "arrival": "12:30", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "14:00", "arrival": "16:00", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "18:00", "arrival": "20:00", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } }
+          ]
+        },
+        {
+          "id": "soretras",
+          "name": "SORETRAS",
+          "logo": "🚍",
+          "color": "#2a9d8f",
+          "schedules": [
+            { "departure": "08:30", "arrival": "10:45", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } },
+            { "departure": "13:00", "arrival": "15:15", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } },
+            { "departure": "16:30", "arrival": "18:45", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Tunis",
+      "to": "Bizerte",
+      "providers": [
+        {
+          "id": "transtu",
+          "name": "TRANSTU Express",
+          "logo": "🚎",
+          "color": "#f4a261",
+          "schedules": [
+            { "departure": "06:30", "arrival": "08:00", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "09:00", "arrival": "10:30", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "12:00", "arrival": "13:30", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "16:00", "arrival": "17:30", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "19:00", "arrival": "20:30", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } }
+          ]
+        },
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "07:30", "arrival": "09:15", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } },
+            { "departure": "11:00", "arrival": "12:45", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } },
+            { "departure": "15:00", "arrival": "16:45", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Sfax",
+      "to": "Tunis",
+      "providers": [
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "05:30", "arrival": "09:00", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "08:00", "arrival": "11:30", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "12:00", "arrival": "15:45", "duration": "3h 45m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } },
+            { "departure": "16:30", "arrival": "20:00", "duration": "3h 30m", "price": { "adult": 22.5, "kid": 11.25, "disabled": 11.25 } }
+          ]
+        },
+        {
+          "id": "transtu",
+          "name": "TRANSTU Express",
+          "logo": "🚎",
+          "color": "#f4a261",
+          "schedules": [
+            { "departure": "07:00", "arrival": "10:00", "duration": "3h 00m", "price": { "adult": 28.0, "kid": 14.0, "disabled": 14.0 } },
+            { "departure": "13:30", "arrival": "16:30", "duration": "3h 00m", "price": { "adult": 28.0, "kid": 14.0, "disabled": 14.0 } }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Sousse",
+      "to": "Tunis",
+      "providers": [
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "06:00", "arrival": "08:00", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "09:30", "arrival": "11:30", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "13:00", "arrival": "15:00", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } },
+            { "departure": "17:30", "arrival": "19:30", "duration": "2h 00m", "price": { "adult": 13.5, "kid": 6.75, "disabled": 6.75 } }
+          ]
+        },
+        {
+          "id": "soretras",
+          "name": "SORETRAS",
+          "logo": "🚍",
+          "color": "#2a9d8f",
+          "schedules": [
+            { "departure": "07:30", "arrival": "09:45", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } },
+            { "departure": "12:00", "arrival": "14:15", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } },
+            { "departure": "16:00", "arrival": "18:15", "duration": "2h 15m", "price": { "adult": 11.2, "kid": 5.6, "disabled": 5.6 } }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Bizerte",
+      "to": "Tunis",
+      "providers": [
+        {
+          "id": "transtu",
+          "name": "TRANSTU Express",
+          "logo": "🚎",
+          "color": "#f4a261",
+          "schedules": [
+            { "departure": "06:00", "arrival": "07:30", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "08:30", "arrival": "10:00", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "11:30", "arrival": "13:00", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } },
+            { "departure": "15:30", "arrival": "17:00", "duration": "1h 30m", "price": { "adult": 8.5, "kid": 4.25, "disabled": 4.25 } }
+          ]
+        },
+        {
+          "id": "sntri",
+          "name": "SNTRI",
+          "logo": "🚌",
+          "color": "#e63946",
+          "schedules": [
+            { "departure": "07:00", "arrival": "08:45", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } },
+            { "departure": "10:30", "arrival": "12:15", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } },
+            { "departure": "14:30", "arrival": "16:15", "duration": "1h 45m", "price": { "adult": 7.8, "kid": 3.9, "disabled": 3.9 } }
+          ]
+        }
+      ]
+    }
+  ]
+}
